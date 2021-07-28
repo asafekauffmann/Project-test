@@ -1,5 +1,5 @@
 .container {
-  height: 550px;
+  height: 660px;
   width: 100%;
   display: flex;
   position: relative;
@@ -12,28 +12,41 @@
   height: 100%;
   width: 100%;
   background-size: auto;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .cont-text {
   position: absolute;
   display: flex;
   color: white;
-  padding: 300px;
+  align-items: center;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 43px;
+  text-align: center;
+}
+
+.cont-text1 {
+  position: absolute;
+  display: flex;
+  color: rgba(0,135,169,1);
+  top: 450px;
+  align-items: center;
+}
+
+h4 {
+  font-size: 25px;
   text-align: center;
 }
 
 .cont-text2 {
   position: absolute;
   display: flex;
-  bottom: 5px;
+  bottom: 40px;
   color: white;
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
 }
