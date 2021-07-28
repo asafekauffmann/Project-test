@@ -1,0 +1,39 @@
+.container {
+  height: 550px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  background-size: auto;
+  opacity: 0.3;
+}
+
+.cont-text {
+  position: absolute;
+  display: flex;
+  color: white;
+  padding: 300px;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.cont-text2 {
+  position: absolute;
+  display: flex;
+  bottom: 5px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+}
