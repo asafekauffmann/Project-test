@@ -1,13 +1,15 @@
 <div class="tabela">
-  <img src="{{ character.thumbnail.path }}.{{ character.thumbnail.extension }}" alt="{{ character.name}} ">
+  <img src="{{character.thumbnail.path}}.{{character.thumbnail.extension}}" alt="{{ character.name }}">
 
   <div class="desc">
     <h1 class="title">{{ character.name }}</h1>
     <p class="subtitle">
-      {{ character.description }}
+      {{ character.descprition }}
+      {{ character.modified }}
     </p>
     <div>
       <a href="{{ character.urls[0].url }}"><p class="read-more">Read more</p></a>
+      {{ character.comics }}
     </div>
 
     <button class="btn-favorites">ADD TO FAVORITES LIST</button>
