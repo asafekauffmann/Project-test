@@ -2,8 +2,8 @@
   position: relative;
   border-radius: 10px;
   width: 55%;
-  height: 2000px;
-  background-color: rgb(86, 107, 119);
+  height: 1000px;
+  background-color: rgb(108, 131, 145);
   margin-top: 50px;
   margin-left: 25%;
   opacity: 0.5;
@@ -11,9 +11,9 @@
 
 .tabela {
   position: absolute;
-  height: 340px;
-  width: 95%;
-  background-color: #35363d;
+  min-height: 340px;
+  width: 98%;
+  background-color:rgb(50, 49, 51);
   border-radius: 10px;
   margin: 1%;
   margin-right: 1%;
@@ -28,11 +28,51 @@ img {
 }
 
 .desc {
-  height: 320px;
-  width: 62%;
-  background-color: rgb(144, 136, 151);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  width: 67%;
+  background-color: rgb(50, 49, 51);
   margin-top: 10px;
-  margin-left: 35%;
+  margin-left: 32%;
   border-radius: 10px;
   margin-right: 20px;
+  align-items: flex-start;
+}
+
+.title {
+  margin-top: 40px;
+  padding: 20px;
+  color: rgb(255, 19, 19);
+}
+
+
+.subtitle {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 18px;
+}
+
+.read-more {
+  padding: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(255, 0, 0);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  padding: 9px 25px;
+  font-size: 16px;
+  color: white;
+  width: 85%;
+  margin-left: 40px;
+}
+
+button:hover {
+  background-color: rgb(255, 50, 50);
 }
