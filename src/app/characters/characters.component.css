@@ -1,3 +1,8 @@
+.teste {
+  color: white;
+  width: 50%;
+}
+
 .container {
   position: relative;
   display: flex;

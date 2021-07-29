@@ -1,14 +1,3 @@
-.container {
-  position: relative;
-  display: flex;
-  border-radius: 10px;
-  width: 55%;
-  height: 1000px;
-  background-color: rgba(48, 52, 54, 0.192);
-  margin-top: 50px;
-  margin-left: 22.5%;
-}
-
 .tabela {
   position: absolute;
   min-height: 340px;

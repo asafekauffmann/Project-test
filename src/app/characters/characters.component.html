@@ -1,0 +1,19 @@
+<div class="teste">
+  <p>characters works!</p>
+</div>
+
+
+  <div class="container">
+    <div class="tabela" >
+      <div *ngFor="let character of allCharacters | async">
+
+      <app-character>[character]="character"</app-character>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
