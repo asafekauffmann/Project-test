@@ -12,7 +12,7 @@
   height: 100%;
   width: 100%;
   background-size: auto;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .cont-text {
@@ -23,14 +23,14 @@
 }
 
 h1 {
-  font-size: 43px;
+  font-size: 45px;
   text-align: center;
 }
 
 .cont-text1 {
   position: absolute;
   display: flex;
-  color: rgba(0,135,169,1);
+  color: white;
   top: 450px;
   align-items: center;
 }
@@ -48,5 +48,7 @@ h4 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
 }

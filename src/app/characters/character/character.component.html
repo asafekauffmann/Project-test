@@ -14,6 +14,7 @@
   <div class="card-content">
     <div class="card-header">
       <h1 class="title">{{ character.name }}</h1>
+      <p class="title-id">Id. {{ character.id }} </p>
     </div>
 
     <div class="card-body">
@@ -21,15 +22,19 @@
         {{ character.description }}
       </p>
 
+      <p class="subtitle-mod">
+        Modified: {{ character.modified }}
+      </p>
+
       <div>
         <a class="link" href="/characters/{{ character.id }}"
-          ><p class="read-more">Read more</p></a
+          ><p class="details">Details</p></a
         >
       </div>
     </div>
 
     <div class="card-footer">
-      <button class="btn-favorites">ADD TO FAVORITES LIST</button>
+      <button class="btn-favorites">ADD FAVORITES LIST</button>
     </div>
   </div>
 </div>

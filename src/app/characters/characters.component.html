@@ -1,6 +1,7 @@
-<div class="teste">
-  <p>characters works!</p>
+<div class="cont-title">
+  <h2>All Heroes</h2>
 </div>
+
 <div class="container">
   <div *ngFor="let character of allCharacters | async">
     <app-character [character]="character"></app-character>
