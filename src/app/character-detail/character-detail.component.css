@@ -1,26 +1,29 @@
 .cont-title {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  margin-left: 15px;
-  height: 80px;
-}
-
-img {
-  height: 50px;
-  width: 50px;
-  background-color: rgb(97, 15, 197);
-  border-radius: 50px;
-}
-
-img:hover {
-  height: 55px;
-  width: 55px;
+  justify-content: center;
+  flex-direction: row;
+  height: 150px;
+  width: 100%;
 }
 
 p {
-  color: white;
+  color: rgb(97, 15, 197);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 35px;
   margin-left: 10px;
 }
+
+img {
+  height: 30px;
+  width: 30px;
+  color: rgb(97, 15, 197);
+  background-color: rgb(97, 15, 197);
+  border-radius: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+

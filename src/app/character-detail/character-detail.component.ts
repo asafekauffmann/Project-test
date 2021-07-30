@@ -11,7 +11,8 @@ export class CharacterDetailComponent implements OnInit {
 
   id: string
   character: any;
-  
+  router: any;
+
   constructor(private route: ActivatedRoute, private characterSvc: CharactersApiService) {}
 
   ngOnInit(): void {
@@ -26,4 +27,5 @@ export class CharacterDetailComponent implements OnInit {
       console.log(characters, this.id)
     }
   }
+
 }

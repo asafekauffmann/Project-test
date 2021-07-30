@@ -27,14 +27,18 @@
       </p>
 
       <div>
-        <a class="link" href="/characters/{{ character.id }}"
-          ><p class="details">Details</p></a
-        >
+
+        <div class="checkbox">
+          <input type="checkbox" id="favorite" name="favorite">
+          <label for="favorite">  Add Favorite</label>
+        </div>
+
       </div>
     </div>
 
     <div class="card-footer">
-      <button class="btn-favorites">ADD FAVORITES LIST</button>
+      <a href="/characters/{{ character.id }}">
+      <button class="btn-details">MORE DETAILS</button></a>
     </div>
   </div>
 </div>

@@ -44,21 +44,7 @@
   color: rgb(150, 150, 150);
 }
 
-a {
-  text-decoration: none;
-}
-
-.details {
-  font-weight: bold;
-  color: rgb(97, 15, 197);
-  text-decoration: none;
-}
-
-.details:hover {
-  color:rgb(119, 0, 255);
-}
-
-.btn-favorites {
+.btn-details {
   background-color: transparent;
   border: solid 3px rgb(97, 15, 197);
   border-radius: 50px;
@@ -66,10 +52,21 @@ a {
   transition: all 0.3s ease 0s;
   padding: 9px 25px;
   font-size: 14px;
-  color: white;
+  color: rgb(204, 204, 204);
 }
 
-.btn-favorites:hover {
+.btn-details:hover {
   border: solid 3px rgb(113, 20, 228);;
   background-color: rgb(113, 20, 228);
+}
+
+.checkbox {
+  color: rgb(97, 15, 197);
+  height: 13px;
+  font-weight: bold;
+}
+
+:checked {
+  width: 13px;
+  height: 13px;
 }
