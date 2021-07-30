@@ -22,9 +22,5 @@ export class CharactersApiService {
       return data.data.results
     }))
   }
-
-
 }
 
-
-//https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=${this.PUBLIC_KEY}&hash=${this.HASH}

@@ -10,6 +10,7 @@ import { CharacterComponent } from './characters/character/character.component';
 import { CharactersComponent } from './characters/characters.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CharacterDetailComponent } from './character-detail/character-detail.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CharacterDetailComponent } from './character-detail/character-detail.co
     FooterComponent,
     CharacterComponent,
     CharactersComponent,
-    CharacterDetailComponent
+    CharacterDetailComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
