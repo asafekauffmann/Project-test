@@ -11,20 +11,9 @@
     }"
   ></div>
 
-<<<<<<< HEAD
-  <div class="desc">
-    <h1 class="title">{{ character.name }}</h1>
-    <p class="subtitle">
-      {{ character.descprition }}
-      {{ character.modified }}
-    </p>
-    <div>
-      <a href="{{ character.urls[0].url }}"><p class="read-more">Read more</p></a>
-=======
   <div class="card-content">
     <div class="card-header">
       <h1 class="title">{{ character.name }}</h1>
->>>>>>> cc681bb80c2ee03f8c08b000e158517ff352d445
     </div>
 
     <div class="card-body">
@@ -33,7 +22,7 @@
       </p>
 
       <div>
-        <a class="link" href="{{ character.urls[0].url }}"
+        <a class="link" href="/characters/{{ character.id }}"
           ><p class="read-more">Read more</p></a
         >
       </div>

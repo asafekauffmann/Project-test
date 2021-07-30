@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CharacterComponent } from './characters/character/character.component';
 import { CharactersComponent } from './characters/characters.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CharacterDetailComponent } from './character-detail/character-detail.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     SecondComponent,
     FooterComponent,
     CharacterComponent,
-    CharactersComponent
+    CharactersComponent,
+    CharacterDetailComponent
   ],
   imports: [
     BrowserModule,
