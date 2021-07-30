@@ -17,7 +17,9 @@ export class CharactersComponent implements OnInit {
   }
 
   getCharacters() {
-    this.allCharacters = this.characterSvc.getAllCharacters();
+    const res = this.characterSvc.getAllCharacters();
+    console.log("res", res)
+    this.allCharacters = res
   }
 
 }
